@@ -1,0 +1,9 @@
+{
+  "name": "sample-http",
+  "version": "0.0.1",
+  "dependencies": {
+  	"googleapis": "",
+    "sendgrid": "",
+    "@sendgrid/mail": "^6.2.0"
+  }
+}
