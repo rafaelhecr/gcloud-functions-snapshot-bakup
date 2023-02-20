@@ -116,7 +116,7 @@ const executeSnapshot = (req,res) => {
 /*Funciòn para enviar un enviar un correo de notificación*/
 const sendEmail = () => {
 	const sgMail = require('@sendgrid/mail');  //llamar a las librerias de SendGrid en Packajes.JSON
-	sgMail.setApiKey('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');
+	sgMail.setApiKey('');
 	const msg = { //cuerpo del correo
 		to: '',
 		from: '',
